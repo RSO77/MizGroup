@@ -7,12 +7,12 @@
 <script>
 
 
-    let defaultWidth = 1440,
+    let defaultWidth = 1600,
         maxWidth = 2060,
         defaultFont = 16,
         minWidth = 768,
-        minHeight = 600,
-        defaultHeight = 810;
+        minHeight = 500,
+        defaultHeight = 800;
 
     export default {
         name: 'Resize',

@@ -1,0 +1,36 @@
+.page-reg{
+  background-color: #143f85;
+  border-bottom-left-radius: 4.5em;
+  border-top-left-radius: 4.5em;
+  .text{
+    padding-right: em(20);
+    position: absolute;
+    top: 50%;
+    left: em(120);
+    transform: translate3d(0, -50%, 0);
+    p{
+      margin: em(3) 0;
+      text-align: left;
+      font-size: em(22);
+      line-height: em(20);
+      color: white;
+      font-style: italic;
+    }
+  }
+  .exit-btn{
+    position: absolute;
+    top: em(10);
+    right: em(10);
+    background-color: #e40664;
+    color: white;
+    padding: em(15);
+    span{
+      font-family: Trebuchet-b;
+      text-transform: uppercase;
+      font-size: em(14);
+      color: white;
+      border-radius: 4px;
+      letter-spacing: 2px;
+    }
+  }
+}

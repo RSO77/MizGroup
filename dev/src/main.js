@@ -17,6 +17,7 @@ new Vue({
     template: '<App/>',
     data() {
         return {
+            prevRoute: '/',
             isMobile: Helpers.isMobile()
         }
     },

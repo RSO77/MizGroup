@@ -1,0 +1,25 @@
+$font_path_Trebuchet-r:          '/static/fonts/TrebuchetMS/';
+$font_path_Trebuchet-b:          '/static/fonts/TrebuchetMS-Bold/';
+
+@font-face {
+  font-family: 'Trebuchet-r';
+  src: url($font_path_Trebuchet-r + 'TrebuchetMS.eot?#iefix') format('embedded-opentype'),
+  //url($font_path_Trebuchet-r + 'HandsOnC.otf')  format('opentype'),
+  url($font_path_Trebuchet-r + 'TrebuchetMS.woff') format('woff'),
+  url($font_path_Trebuchet-r + 'TrebuchetMS.ttf')  format('truetype'),
+  url($font_path_Trebuchet-r + 'TrebuchetMS.svg#TrebuchetMS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  line-height: 15.4px;
+}
+
+
+@font-face {
+  font-family: 'Trebuchet-b';
+  src: url($font_path_Trebuchet-b + 'TrebuchetMS-Bold.eot?#iefix') format('embedded-opentype'),
+  url($font_path_Trebuchet-b + 'TrebuchetMS-Bold.woff') format('woff'),
+  url($font_path_Trebuchet-b + 'TrebuchetMS-Bold.ttf')  format('truetype'),
+  url($font_path_Trebuchet-b + 'TrebuchetMS-Bold.svg#TrebuchetMS-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}

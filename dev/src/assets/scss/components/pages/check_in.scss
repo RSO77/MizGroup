@@ -1,0 +1,53 @@
+.check_in-page{
+  padding-left: em(140);
+  .contact-title{
+    text-align: left;
+    margin-top: em(15);
+    margin-bottom: em(20);
+    color: white;
+    font-size: em(30);
+    font-family: Trebuchet-r;
+  }
+  form{
+    text-align: left;
+    input{
+      width: em(280);
+      height: em(45);
+      background-color: #e8eef6;
+      padding-left: em(18);
+      display: block;
+      margin-bottom: em(15);
+      border-radius: 4px;
+      border: none;
+      color: black;
+    }
+    .message-input{
+      background-color: #e8eef6;
+      padding: em(18) em(10);
+      display: block;
+      margin-bottom: em(40);
+      width: 87%;
+      height: em(170);
+      border-radius: 4px;
+      border: none;
+      color: black;
+      margin-right: em(50);
+    }
+    .form-btn{
+      display: block;
+      width: em(280);
+      height: em(45);
+      background-color: #e40664;
+      color: white;
+      padding: em(15);
+      margin-left: 0;
+      span{
+        font-family: Trebuchet-b;
+        text-transform: uppercase;
+        font-size: em(14);
+        color: white;
+        border-radius: 4px;
+      }
+    }
+  }
+}
