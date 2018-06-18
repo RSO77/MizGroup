@@ -36,7 +36,7 @@
     import Check_in from '@/components/pages/Check_in';
     import Reg from '@/components/pages/Reg';
 
-    import brace from '@/assets/svg/brace.svg';
+    import brace from '@/static/svg/brace.svg';
 
     export default {
         name: 'app',
